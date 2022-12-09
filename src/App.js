@@ -1,9 +1,13 @@
 import './App.css';
+import './main-components/MainContainer.js'
+import MainContainer from './main-components/MainContainer.js';
+import HistoryContainer from './main-components/HistoryContainer.js';
 
 function App() {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className='app-div'>
+      <MainContainer />
+      <HistoryContainer />
     </div>
   );
 }
