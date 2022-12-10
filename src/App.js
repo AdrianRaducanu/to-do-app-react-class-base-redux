@@ -1,3 +1,5 @@
+import React,{Component} from "react"
+import ReactDOM from "react-dom"
 import './App.css';
 import './main-components/MainContainer.js'
 import MainContainer from './main-components/MainContainer.js';

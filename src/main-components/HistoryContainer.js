@@ -7,8 +7,6 @@ function HistroyContainer() {
             <h2>Histroy</h2>
             <h3>No. of items: </h3>
             <div className='history-item'>
-                <ItemHistory />
-                <ItemHistory />
             </div>
         </div>
     )
