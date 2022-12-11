@@ -5,7 +5,7 @@ import MainContainer from './main-components/MainContainer.js';
 import HistoryContainer from './main-components/HistoryContainer.js';
 
 class App extends Component {
-  render(){
+    render(){
     return (
       <div className='app-div'>
         <MainContainer />
