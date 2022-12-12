@@ -1,0 +1,41 @@
+.div-item{
+    height: 5%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.btns {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-delete {
+    border: 3px solid rgb(194, 27, 27);
+    color: rgb(194, 27, 27);
+}
+
+.btn-done {
+    border: 3px solid rgb(27, 194, 138);
+    color: rgb(27, 194, 138);
+}
+
+.item-name {
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 5px;
+    padding: 0 1%;
+    border: 3px solid white;
+}
